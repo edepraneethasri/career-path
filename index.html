@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Guidance After 10th</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Career Path After 10th</h1>
+  <p>Choose a stream to explore substreams and career opportunities</p>
+</header>
+
+<!-- Page 1: Stream selection -->
+<section id="streamPage" class="center">
+  <div class="stream-button" onclick="showStream('science')">Science</div>
+  <div class="stream-button" onclick="showStream('commerce')">Commerce</div>
+  <div class="stream-button" onclick="showStream('arts')">Arts / Humanities</div>
+  <div class="stream-button" onclick="showStream('diploma')">Diploma / Vocational</div>
+  <div class="stream-button" onclick="showStream('it')">IT & Computers</div>
+  <div class="stream-button" onclick="showStream('defense')">Defense Services</div>
+</section>
+
+<!-- Page 2: Substreams -->
+<section id="substreamPage" class="page">
+  <button onclick="backToStreams()">← Back to Streams</button>
+  <h2 id="streamTitle"></h2>
+  <p id="streamDesc"></p>
+  <h3>Select a Substream:</h3>
+  <div id="substreamList"></div>
+</section>
+
+<!-- Page 3: Opportunities -->
+<section id="opportunityPage" class="page">
+  <button onclick="backToSubstreams()">← Back to Substreams</button>
+  <h2 id="substreamTitle"></h2>
+  <h3>Career Opportunities:</h3>
+  <ul id="opportunityList"></ul>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions (FAQ)</h2>
+
+  <div class="faq-item">
+    <div class="faq-question">1. What are the best streams after 10th?</div>
+    <div class="faq-answer">The best stream depends on your interests and career goals. Science for engineering/medical, Commerce for business/finance, Arts/Humanities for creative and social sciences, IT & Vocational for technical skills, and Defense for a career in armed forces.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">2. Can I change my stream after 11th?</div>
+    <div class="faq-answer">Changing streams after 11th is usually difficult because the subjects are very specific. It’s better to choose carefully after 10th.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">3. Are vocational courses useful?</div>
+    <div class="faq-answer">Yes, vocational courses provide practical skills and can lead to jobs, entrepreneurship, or further specialized studies.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">4. How to decide the best career path?</div>
+    <div class="faq-answer">Identify your interests, strengths, and career goals. Seek guidance from teachers, career counselors, and online resources.</div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
