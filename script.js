@@ -1,4 +1,4 @@
-// Data for streams
+
 var streams = {
   science: {
     title: "Science",
@@ -114,7 +114,6 @@ function backToSubstreams() {
   document.getElementById("substreamPage").style.display = "block";
 }
 
-// ✅ FAQ toggle (NOW WORKS)
 document.querySelectorAll(".faq-question").forEach(function (question) {
   question.addEventListener("click", function () {
     const answer = this.nextElementSibling;
